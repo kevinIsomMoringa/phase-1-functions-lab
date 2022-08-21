@@ -1,20 +1,4 @@
 //codebase here
-/*
-const HQ_Add = 42 
-
-
-
-
-function distanceTravelledInFeet(start,end) {
-    //(38-34)*264
-    let diffInFeet = distanceFromHqInBlocks(start,end)*eachBlockTofeet
-    return diffInFeet
-}
-
-function distanceFromHqInFeet(pickup_loc) {
-    return distanceTravelledInFeet(HQ_Add,pickup_loc)
-}
-*/
 
 const HQ_address = 42
 const eachBlockTofeet = 264
@@ -51,6 +35,7 @@ function calculatesFarePrice(start, destination) {
     Finally, Scuber does not allow any rides over 2500 feet — 
     the function returns 'cannot travel that far' if a ride over 2500 feet is requested.
     */
+   
     let fare
     let travelDistance = distanceTravelledInFeet(start,destination)
     
